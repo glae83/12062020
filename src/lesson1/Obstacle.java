@@ -15,4 +15,5 @@ public class Obstacle {
     public int doLenght() {
         return lenght;
     }
+
 }

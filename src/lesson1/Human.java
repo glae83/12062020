@@ -20,4 +20,5 @@ public class Human implements Competitor {
         }
         return height && dist ;
     }
+
 }

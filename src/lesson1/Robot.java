@@ -20,4 +20,5 @@ public class Robot implements Competitor {
         }
         return height && dist ;
     }
+
 }
