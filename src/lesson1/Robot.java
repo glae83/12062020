@@ -1,5 +1,5 @@
 package lesson1;
-
+//
 public class Robot implements Competitor {
     static int maxJumpHeight = 10;
     static int maxRunDistance = 100000;
@@ -14,7 +14,7 @@ public class Robot implements Competitor {
         }
         boolean dist = (maxRunDistance >= o.doLenght());
         if (dist) {
-            System.out.println("Робот пробежал расстояние " + o.doLenght());
+            System.out.println("Робот смог пробежать расстояние " + o.doLenght());
         } else {
             System.out.println("Робот не смог пробежать " + o.doLenght());
         }

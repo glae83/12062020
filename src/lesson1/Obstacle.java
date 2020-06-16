@@ -1,5 +1,5 @@
 package lesson1;
-
+//
 public class Obstacle {
     private int height;
     private int lenght;

@@ -1,5 +1,5 @@
 package lesson1;
-
+//
 public class Human implements Competitor {
     static int maxJumpHeight = 2;
     static int maxRunDistance = 5000;
@@ -14,7 +14,7 @@ public class Human implements Competitor {
         }
         boolean dist = (maxRunDistance >= o.doLenght());
         if (dist) {
-            System.out.println("Человек смог пробежать " + o.doLenght());
+            System.out.println("Человек смог пробежать расстояние" + o.doLenght());
         } else {
             System.out.println("Человек не смог пробежать "  + o.doLenght());
         }

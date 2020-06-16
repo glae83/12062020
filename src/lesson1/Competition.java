@@ -1,5 +1,5 @@
 package lesson1;
-
+//
 public class Competition {
     static Competitor[] competitors = {
             new Human(),

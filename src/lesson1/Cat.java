@@ -1,5 +1,5 @@
 package lesson1;
-
+//
 public class Cat implements Competitor {
     static int maxRunDistance = 100;
     static int maxJumpHeight = 3;
